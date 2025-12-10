@@ -14,5 +14,9 @@ spring:
     config:
       server:
         git:
-          uri: looksaw
+          uri: https://github.com/looksaw2/configserver.git
           default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+  
